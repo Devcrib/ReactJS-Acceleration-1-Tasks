@@ -1,6 +1,6 @@
-ReactJS Acceleration Tasks
+# ReactJS Acceleration Tasks
 
-Task A
+### Task A
 Problem statement: Using pure Vanilla Javascript (and no known frontend framework whatsoever), create a screen (webpage) that hosts widgets, these widgets are of three kinds, and their behaviours are outlined below:
 1. DisplayWidget — a label that displays text.
 2. InputWidget — a composite element consisting of an input control and a label (not DisplayWidget).
@@ -12,7 +12,7 @@ Conditions:
 2. ES6 Vanilla JS is encouraged.
 
 
-Task B
+### Task B
 Problem statement: Using pure Vanilla Javascript (and no known frontend framework whatsoever), design a shopping checklist app that maintains and remembers the user's list.
    
   
