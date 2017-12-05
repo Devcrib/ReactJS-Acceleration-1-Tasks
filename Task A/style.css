@@ -1,0 +1,84 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.widget {
+    height: 200px;
+    width: 29.5%;
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    float: left;
+    text-align: center;
+    border: 3px solid #fff;
+}
+
+.displayWidget {
+    background-color: #f00;
+}
+
+.displayWidget label {
+    line-height: 200px;
+    font-size: 22px;
+}
+
+.inputWidget {
+    background-color: rgb(107, 142, 35);
+}
+
+.inputWidget #inputLabel {
+    line-height: 200px;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.inputWidget input {
+    height: 40px;
+    width: 75%;
+    position: relative;
+    bottom: 50px;
+    top: auto;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.actionWidget {
+    background-color: rgb(65, 105, 225);
+    line-height: 200px;
+}
+
+.actionWidget button {
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    margin: 0 10px;
+    border: 1px solid #00f;
+    cursor: pointer;
+}
+
+.actionWidget .add {
+    background-color: rgb(107, 142, 35);
+    transition: background-color .5s;
+}
+
+.actionWidget .add:hover {
+    background-color: rgb(47, 92, 0);
+}
+
+.actionWidget .delete {
+    background-color: rgb(255, 0, 0);
+    transition: background-color .5s;
+}
+
+.actionWidget .delete:hover {
+    background-color: rgb(121, 0, 0);
+}
